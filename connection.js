@@ -47,7 +47,7 @@ const {
 
    if (connection === 'close') {
     const shouldReconnect = lastDisconnect.error?.output?.statusCode !== DisconnectReason.loggedOut
-    console.log(logs("Erro não suportado! Recomectando..."));
+    console.log(logs("Erro não suportado! Reconectando..."));
 
     if (shouldReconnect) {
      connectToWhatsApp();
