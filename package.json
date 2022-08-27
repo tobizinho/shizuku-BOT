@@ -10,7 +10,7 @@
   "author": "@Tobi",
   "license": "ISC",
   "dependencies": {
-    "@adiwajshing/baileys": "^4.3.0",
+    "@adiwajshing/baileys": "github:adiwajshing/bailey",
     "chalk": "4.1.2",
     "qrcode-terminal": "^0.12.0"
   },
