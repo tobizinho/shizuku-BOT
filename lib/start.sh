@@ -1,5 +1,5 @@
 while :
 do
-node connection.js --color
+node connection.js
 sleep 1      
 done
